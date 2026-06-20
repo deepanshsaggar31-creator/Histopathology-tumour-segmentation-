@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Checkpoints and models
+checkpoints/
+*.pth
+*.pt
+
+# Dataset directories
+data/
+*.h5
+*.h5.gz
+/content/
+
+# Local configuration / IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Output plots
+plots/
